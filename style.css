@@ -7,6 +7,13 @@ body{
     background-color: aliceblue;
     color: #2c3e50;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+main{
+    flex: 1;
 }
 nav ul{
     display: flex;
@@ -89,6 +96,12 @@ a:hover{
     margin-left: 20px;
     margin-right: 20px;
     margin: 20px;
+    min-width: 600px;
+}
+#courseTable{
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 20px;
 }
 #my_courses table{
     width: 90%;
