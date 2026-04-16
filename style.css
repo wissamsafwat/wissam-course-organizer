@@ -1,0 +1,184 @@
+header, footer{
+    background-color: antiquewhite;
+    color: #05121f;
+    text-align: center;
+}
+body{
+    background-color: aliceblue;
+    color: #2c3e50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+nav ul li{
+    margin: 20px;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #05121f;
+    font-weight: bold;
+    transition: 0.6s;
+}
+nav ul li a:hover{
+    color: tomato;
+    transform: scale(1.2);
+    text-decoration: none;
+}
+#intro{
+    background-color:rgb(223, 196, 173);
+    border: 3px solid antiquewhite;
+    border-radius: 20px;
+    box-shadow: 0 2px 20px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 20px;
+    padding: 12px;
+}
+#intro h2{
+    text-align: center;
+}
+a{
+    color: rgb(186, 93, 93);
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#homePage{
+    background-color:rgb(243, 225, 208);
+    padding: 3px;
+    box-shadow: 0 2px 20px black;
+    border: 1px solid black;
+    border-radius: 1px;
+
+}
+#get_started{
+    text-align: center;
+}
+#get_started a{
+    display: inline-block;
+    background-color:rgb(223, 196, 173);
+    color: #05121f;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 0 2px 20px black; 
+    padding: 5px;
+    transition: 0.6s;
+}
+#get_started a:hover{
+    color: tomato;
+    transform: scale(1.2);
+}
+#my_courses h3{
+    text-align: center;
+}
+#my_courses{
+    background-color:rgb(223, 196, 173);
+    border: 3px solid antiquewhite;
+    border-radius: 20px;
+    box-shadow: 0 2px 20px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 20px;
+}
+#my_courses table{
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#my_courses table thead{
+    box-shadow: 0 2px 20px black;
+    text-align: center;
+}
+#my_courses table td , th{
+    text-align: center; 
+    border: 1px solid black;
+}
+#my_courses table td{
+    background-color: rgb(243, 225, 208);
+    color: #13161a;
+}
+#form h3{
+    text-align: center;
+}
+#form{
+    text-align: center;
+    background-color:rgb(223, 196, 173);
+    border: 3px solid antiquewhite;
+    border-radius: 20px;
+    box-shadow: 0 2px 20px black;
+    margin: 20px;
+    padding: 12px;
+}
+#allformitems{
+    border: 1px solid black;
+    border-radius: 1px;
+    box-shadow: 0 2px 20px black;
+}
+.formItem{
+    padding: 12px;
+    font-weight: bolder;
+    background-color: rgb(243, 225, 208);
+}
+.formItem label{
+    display: inline-block;
+    text-align: left;
+    width: 130px;
+    vertical-align: top;
+}
+.formItem input , .formItem textarea{
+    text-align: center;
+    width: 160px;
+   
+}
+#form button{
+    display: inline-block;
+    background-color: antiquewhite;
+    color: #05121f;
+    box-shadow: 0 2px 20px black;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 12px;
+    font-weight: bold;
+    transition: 0.6s;
+}
+#form button:hover{
+    color: tomato;
+    transform: scale(1.2);
+}
+#contact{
+    background-color:rgb(223, 196, 173);
+    border: 3px solid antiquewhite;
+    border-radius: 20px;
+    box-shadow: 0 2px 20px black;
+    padding: 12px;
+    margin: 20px;
+}
+#contact h3{
+    text-align: center;
+}
+#contact ul{
+    background-color: rgb(243, 225, 208);
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 0 2px 20px black;
+}
+#contact a{
+    text-decoration: none;
+    transition: 0.6s;
+}
+#contact a:hover{
+    color: blue;
+    text-decoration: underline;
+}
