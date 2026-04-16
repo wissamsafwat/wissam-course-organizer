@@ -96,25 +96,30 @@ a:hover{
     margin-left: 20px;
     margin-right: 20px;
     margin: 20px;
-    min-width: 600px;
+    width: auto;
+    overflow: hidden;
 }
 #courseTable{
     width: 100%;
     overflow-x: auto;
-    margin-bottom: 20px;
+    margin: 10px 0;
+    display: block;
 }
 #my_courses table{
-    width: 90%;
+    width: 100%;
+    min-width: 650px;
     border-collapse: collapse;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    
 }
 #my_courses table thead{
     box-shadow: 0 2px 20px black;
     text-align: center;
 }
 #my_courses table td , th{
+    white-space: nowrap;
     text-align: center; 
     border: 1px solid black;
 }
